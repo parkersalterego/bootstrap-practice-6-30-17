@@ -6,6 +6,10 @@
   height:100px;
   background-color:red;
 }
+.yellow{
+  height:100px;
+  background-color:#aeb9c2;
+}
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 768px) {
   .red{
@@ -14,6 +18,10 @@
   .green{
     background-color:yellow;
   }
+  .yellow{
+    height:100px;
+    background-color:black;
+  }
 }
 @media only screen and (max-width: 375px) {
   .red{
@@ -21,5 +29,9 @@
     }
     .green{
       background-color:aqua;
+    }
+    .yellow{
+      height:100px;
+      background-color:grey;
     }
 }
