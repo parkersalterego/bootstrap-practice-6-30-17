@@ -1,0 +1,25 @@
+.green{
+  height:100px;
+  background-color:green;
+}
+.red{
+  height:100px;
+  background-color:red;
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 768px) {
+  .red{
+    background-color: blue;
+  }
+  .green{
+    background-color:yellow;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .red{
+    background-color:purple;
+    }
+    .green{
+      background-color:aqua;
+    }
+}
